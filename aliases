@@ -4,3 +4,28 @@ alias speedtest="curl -s https://raw.githubusercontent.com/sivel/speedtest-cli/m
 
 # Quickly serve the current directory as HTTP
 alias serve='ruby -run -e httpd . -p 8000' # Or python -m SimpleHTTPServer :)
+
+## my own aliases
+
+alias jn="jupyter notebook"
+alias jl="jupyter lab"
+
+# Git
+alias gs="git status -s"
+alias gb='git branch'
+alias gpom='git push origin master'
+
+# quick alias for nice showing of ls
+alias lr='ls -hartl'
+
+## get rid of command not found ##
+alias cd..='cd ..'
+
+## a quick way to get out of current directory ##
+alias ..='cd ..'
+alias ...='cd ../..'
+alias ....='cd ../../..'
+
+alias cdc='cd /Users/bfrisque/code/benoitfrisque'
+
+alias c='clear'
